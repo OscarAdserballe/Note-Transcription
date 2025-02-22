@@ -12,6 +12,8 @@ BASE_FOLDER = Path("~/Google Drive/My Drive/Handwritten Notes").expanduser().res
 # Output folder to save transcriptions.
 OUTPUT_FOLDER = Path("~/Google Drive/My Drive/Transcriptions").expanduser().resolve()
 
+OBSIDIAN_FOLDER = Path("~/Google Drive/My Drive/Obsidian").expanduser().resolve()
+
 BASE_LLM_MODEL = "gemini-2.0-flash"
 ADVANCED_LLM_MODEL = "gemini-exp-1206"
 

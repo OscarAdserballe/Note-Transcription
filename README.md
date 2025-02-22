@@ -1,7 +1,9 @@
-# Note Transcription: From Handwritten Pages to Digital Insights
+# Note Transcription: Digitising Handwritten Pages Better 
 
 ## Overview
 Note Transcription is a Python tool that converts your handwritten note images into structured digital transcriptions. It transcribes individual pages, groups them into topics, and outputs detailed JSON files for easy review.
+
+The main idea is to provide a simple and efficient way to digitize handwritten notes, making them more accessible and searchable. The main innovation is to push it through multiple layers of processing to ensure that "topics" are better understood and transcribed compared to just transcribing raw individual pages where a lot of the context is lost and an LLM is left stranded.
 
 ## Features
 - **Folder-Based Processing**: Organizes input images by subfolder (e.g. class, project) and mirrors the structure in the output
